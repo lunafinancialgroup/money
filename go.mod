@@ -1,4 +1,4 @@
-module github.com/govalues/money
+module github.com/lunafinancialgroup/money
 
 go 1.22
 

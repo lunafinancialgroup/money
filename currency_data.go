@@ -4,178 +4,198 @@
 package money
 
 const (
-	XXX Currency = 0   // No Currency
-	XTS Currency = 1   // Test Currency
-	AED Currency = 2   // U.A.E. Dirham
+	XXX Currency = 0   // The codes assigned for transactions where no currency is involved
+	XTS Currency = 1   // Codes specifically reserved for testing purposes
+	AED Currency = 2   // UAE Dirham
 	AFN Currency = 3   // Afghani
 	ALL Currency = 4   // Lek
 	AMD Currency = 5   // Armenian Dram
-	ANG Currency = 6   // Netherlands Antillian Guilder
-	AOA Currency = 7   // Kwanza
-	ARS Currency = 8   // Argentine Peso
-	AUD Currency = 9   // Australian Dollar
-	AWG Currency = 10  // Aruban Guilder
-	AZN Currency = 11  // Azerbaijan Manat
-	BAM Currency = 12  // Convertible Mark
-	BBD Currency = 13  // Barbados Dollar
-	BDT Currency = 14  // Taka
-	BGN Currency = 15  // Bulgarian Lev
-	BHD Currency = 16  // Bahraini Dinar
-	BIF Currency = 17  // Burundi Franc
-	BMD Currency = 18  // Bermudian Dollar
-	BND Currency = 19  // Brunei Dollar
-	BOB Currency = 20  // Boliviano
+	AOA Currency = 6   // Kwanza
+	ARS Currency = 7   // Argentine Peso
+	AUD Currency = 8   // Australian Dollar
+	AWG Currency = 9   // Aruban Florin
+	AZN Currency = 10  // Azerbaijan Manat
+	BAM Currency = 11  // Convertible Mark
+	BBD Currency = 12  // Barbados Dollar
+	BDT Currency = 13  // Taka
+	BGN Currency = 14  // Bulgarian Lev
+	BHD Currency = 15  // Bahraini Dinar
+	BIF Currency = 16  // Burundi Franc
+	BMD Currency = 17  // Bermudian Dollar
+	BND Currency = 18  // Brunei Dollar
+	BOB Currency = 19  // Boliviano
+	BOV Currency = 20  // Mvdol
 	BRL Currency = 21  // Brazilian Real
 	BSD Currency = 22  // Bahamian Dollar
-	BTN Currency = 23  // Bhutan Ngultrum
+	BTN Currency = 23  // Ngultrum
 	BWP Currency = 24  // Pula
-	BYN Currency = 25  // Belarussian Ruble
+	BYN Currency = 25  // Belarusian Ruble
 	BZD Currency = 26  // Belize Dollar
 	CAD Currency = 27  // Canadian Dollar
-	CDF Currency = 28  // Franc Congolais
-	CHF Currency = 29  // Swiss Franc
-	CLP Currency = 30  // Chilean Peso
-	CNY Currency = 31  // Yuan Renminbi
-	COP Currency = 32  // Colombian Peso
-	CRC Currency = 33  // Costa Rican Colon
-	CUP Currency = 34  // Cuban Peso
-	CVE Currency = 35  // Cape Verde Escudo
-	CZK Currency = 36  // Czech Koruna
-	DJF Currency = 37  // Djibouti Franc
-	DKK Currency = 38  // Danish Krone
-	DOP Currency = 39  // Dominican Peso
-	DZD Currency = 40  // Algerian Dinar
-	EGP Currency = 41  // Egyptian Pound
-	ERN Currency = 42  // Eritean Nakfa
-	ETB Currency = 43  // Ethiopian Birr
-	EUR Currency = 44  // Euro
-	FJD Currency = 45  // Fiji Dollar
-	FKP Currency = 46  // Falkland Islands Pound
-	GBP Currency = 47  // Pound Sterling
-	GEL Currency = 48  // Lari
-	GHS Currency = 49  // Cedi
-	GIP Currency = 50  // Gibraltar Pound
-	GMD Currency = 51  // Dalasi
-	GNF Currency = 52  // Guinea Franc
-	GTQ Currency = 53  // Quetzal
-	GWP Currency = 54  // Guinea-Bissau Peso
-	GYD Currency = 55  // Guyana Dollar
-	HKD Currency = 56  // Hong Kong Dollar
-	HNL Currency = 57  // Lempira
-	HRK Currency = 58  // Croatian Kuna
-	HTG Currency = 59  // Gourde
-	HUF Currency = 60  // Forint
-	IDR Currency = 61  // Rupiah
-	ILS Currency = 62  // Israeli Shequel
-	INR Currency = 63  // Indian Rupee
-	IQD Currency = 64  // Iraqi Dinar
-	IRR Currency = 65  // Iranian Rial
-	ISK Currency = 66  // Iceland Krona
-	JMD Currency = 67  // Jamaican Dollar
-	JOD Currency = 68  // Jordanian Dinar
-	JPY Currency = 69  // Yen
-	KES Currency = 70  // Kenyan Shilling
-	KGS Currency = 71  // Som
-	KHR Currency = 72  // Riel
-	KMF Currency = 73  // Comoro Franc
-	KPW Currency = 74  // North Korean Won
-	KRW Currency = 75  // Won
-	KWD Currency = 76  // Kuwaiti Dinar
-	KYD Currency = 77  // Cayman Islands Dollar
-	KZT Currency = 78  // Tenge
-	LAK Currency = 79  // Kip
-	LBP Currency = 80  // Lebanese Pound
-	LKR Currency = 81  // Sri Lanka Rupee
-	LRD Currency = 82  // Liberian Dollar
-	LSL Currency = 83  // Lesotho Loti
-	LYD Currency = 84  // Libyan Dinar
-	MAD Currency = 85  // Moroccan Dirham
-	MDL Currency = 86  // Moldovan Leu
-	MGA Currency = 87  // Malagasy Ariary
-	MKD Currency = 88  // Denar
-	MMK Currency = 89  // Kyat
-	MNT Currency = 90  // Tugrik
-	MOP Currency = 91  // Pataca
-	MRU Currency = 92  // Ouguiya
-	MUR Currency = 93  // Mauritius Rupee
-	MVR Currency = 94  // Rufiyaa
-	MWK Currency = 95  // Malawi Kwacha
-	MXN Currency = 96  // Mexican Peso
-	MYR Currency = 97  // Malaysian Ringgit
-	MZN Currency = 98  // Mozambique Metical
-	NAD Currency = 99  // Namibia Dollar
-	NGN Currency = 100 // Naira
-	NIO Currency = 101 // Cordoba Oro
-	NOK Currency = 102 // Norwegian Krone
-	NPR Currency = 103 // Nepalese Rupee
-	NZD Currency = 104 // New Zealand Dollar
-	OMR Currency = 105 // Rial Omani
-	PAB Currency = 106 // Balboa
-	PEN Currency = 107 // Sol
-	PGK Currency = 108 // Kina
-	PHP Currency = 109 // Philippine Peso
-	PKR Currency = 110 // Pakistan Rupee
-	PLN Currency = 111 // Zloty
-	PYG Currency = 112 // Guarani
-	QAR Currency = 113 // Qatari Rial
-	RON Currency = 114 // Leu
-	RSD Currency = 115 // Serbian Dinar
-	RUB Currency = 116 // Russian Ruble
-	RWF Currency = 117 // Rwanda Franc
-	SAR Currency = 118 // Saudi Riyal
-	SBD Currency = 119 // Solomon Islands Dollar
-	SCR Currency = 120 // Seychelles Rupee
-	SDG Currency = 121 // Sudanese Pound
-	SEK Currency = 122 // Swedish Krona
-	SGD Currency = 123 // Singapore Dollar
-	SHP Currency = 124 // St. Helena Pound
-	SLL Currency = 125 // Leone
-	SOS Currency = 126 // Somali Shilling
-	SRD Currency = 127 // Surinam Dollar
-	SSP Currency = 128 // South Sudanese Pound
-	STN Currency = 129 // Dobra
-	SYP Currency = 130 // Syrian Pound
-	SZL Currency = 131 // Lilangeni
-	THB Currency = 132 // Baht
-	TJS Currency = 133 // Somoni
-	TMT Currency = 134 // Manat
-	TND Currency = 135 // Tunisian Dinar
-	TOP Currency = 136 // Pa'anga
-	TRY Currency = 137 // Turkish Lira
-	TTD Currency = 138 // Trinidad and Tobago Dollar
-	TWD Currency = 139 // New Taiwan Dollar
-	TZS Currency = 140 // Tanzanian Shilling
-	UAH Currency = 141 // Ukrainian Hryvnia
-	UGX Currency = 142 // Uganda Shilling
-	USD Currency = 143 // U.S. Dollar
-	UYU Currency = 144 // Peso Uruguayo
-	UZS Currency = 145 // Uzbekistan Sum
-	VES Currency = 146 // Sovereign Bolivar
-	VND Currency = 147 // Dong
-	VUV Currency = 148 // Vatu
-	WST Currency = 149 // Tala
-	XAF Currency = 150 // CFA Franc BEAC
-	XCD Currency = 151 // East Caribbean Dollar
-	XOF Currency = 152 // CFA Franc BCEAO
-	XPF Currency = 153 // CFP Franc
-	YER Currency = 154 // Yemeni Rial
-	ZAR Currency = 155 // Rand
-	ZMW Currency = 156 // Zambian Kwacha
-	ZWL Currency = 157 // Zimbabwe Dollar
+	CDF Currency = 28  // Congolese Franc
+	CHE Currency = 29  // WIR Euro
+	CHF Currency = 30  // Swiss Franc
+	CHW Currency = 31  // WIR Franc
+	CLF Currency = 32  // Unidad de Fomento
+	CLP Currency = 33  // Chilean Peso
+	CNY Currency = 34  // Yuan Renminbi
+	COP Currency = 35  // Colombian Peso
+	COU Currency = 36  // Unidad de Valor Real
+	CRC Currency = 37  // Costa Rican Colon
+	CUP Currency = 38  // Cuban Peso
+	CVE Currency = 39  // Cabo Verde Escudo
+	CZK Currency = 40  // Czech Koruna
+	DJF Currency = 41  // Djibouti Franc
+	DKK Currency = 42  // Danish Krone
+	DOP Currency = 43  // Dominican Peso
+	DZD Currency = 44  // Algerian Dinar
+	EGP Currency = 45  // Egyptian Pound
+	ERN Currency = 46  // Nakfa
+	ETB Currency = 47  // Ethiopian Birr
+	EUR Currency = 48  // Euro
+	FJD Currency = 49  // Fiji Dollar
+	FKP Currency = 50  // Falkland Islands Pound
+	GBP Currency = 51  // Pound Sterling
+	GEL Currency = 52  // Lari
+	GHS Currency = 53  // Ghana Cedi
+	GIP Currency = 54  // Gibraltar Pound
+	GMD Currency = 55  // Dalasi
+	GNF Currency = 56  // Guinean Franc
+	GTQ Currency = 57  // Quetzal
+	GYD Currency = 58  // Guyana Dollar
+	HKD Currency = 59  // Hong Kong Dollar
+	HNL Currency = 60  // Lempira
+	HTG Currency = 61  // Gourde
+	HUF Currency = 62  // Forint
+	IDR Currency = 63  // Rupiah
+	ILS Currency = 64  // New Israeli Sheqel
+	INR Currency = 65  // Indian Rupee
+	IQD Currency = 66  // Iraqi Dinar
+	IRR Currency = 67  // Iranian Rial
+	ISK Currency = 68  // Iceland Krona
+	JMD Currency = 69  // Jamaican Dollar
+	JOD Currency = 70  // Jordanian Dinar
+	JPY Currency = 71  // Yen
+	KES Currency = 72  // Kenyan Shilling
+	KGS Currency = 73  // Som
+	KHR Currency = 74  // Riel
+	KMF Currency = 75  // Comorian Franc
+	KPW Currency = 76  // North Korean Won
+	KRW Currency = 77  // Won
+	KWD Currency = 78  // Kuwaiti Dinar
+	KYD Currency = 79  // Cayman Islands Dollar
+	KZT Currency = 80  // Tenge
+	LAK Currency = 81  // Lao Kip
+	LBP Currency = 82  // Lebanese Pound
+	LKR Currency = 83  // Sri Lanka Rupee
+	LRD Currency = 84  // Liberian Dollar
+	LSL Currency = 85  // Loti
+	LYD Currency = 86  // Libyan Dinar
+	MAD Currency = 87  // Moroccan Dirham
+	MDL Currency = 88  // Moldovan Leu
+	MGA Currency = 89  // Malagasy Ariary
+	MKD Currency = 90  // Denar
+	MMK Currency = 91  // Kyat
+	MNT Currency = 92  // Tugrik
+	MOP Currency = 93  // Pataca
+	MRU Currency = 94  // Ouguiya
+	MUR Currency = 95  // Mauritius Rupee
+	MVR Currency = 96  // Rufiyaa
+	MWK Currency = 97  // Malawi Kwacha
+	MXN Currency = 98  // Mexican Peso
+	MXV Currency = 99  // Mexican Unidad de Inversion (UDI)
+	MYR Currency = 100 // Malaysian Ringgit
+	MZN Currency = 101 // Mozambique Metical
+	NAD Currency = 102 // Namibia Dollar
+	NGN Currency = 103 // Naira
+	NIO Currency = 104 // Cordoba Oro
+	NOK Currency = 105 // Norwegian Krone
+	NPR Currency = 106 // Nepalese Rupee
+	NZD Currency = 107 // New Zealand Dollar
+	OMR Currency = 108 // Rial Omani
+	PAB Currency = 109 // Balboa
+	PEN Currency = 110 // Sol
+	PGK Currency = 111 // Kina
+	PHP Currency = 112 // Philippine Peso
+	PKR Currency = 113 // Pakistan Rupee
+	PLN Currency = 114 // Zloty
+	PYG Currency = 115 // Guarani
+	QAR Currency = 116 // Qatari Rial
+	RON Currency = 117 // Romanian Leu
+	RSD Currency = 118 // Serbian Dinar
+	RUB Currency = 119 // Russian Ruble
+	RWF Currency = 120 // Rwanda Franc
+	SAR Currency = 121 // Saudi Riyal
+	SBD Currency = 122 // Solomon Islands Dollar
+	SCR Currency = 123 // Seychelles Rupee
+	SDG Currency = 124 // Sudanese Pound
+	SEK Currency = 125 // Swedish Krona
+	SGD Currency = 126 // Singapore Dollar
+	SHP Currency = 127 // Saint Helena Pound
+	SLE Currency = 128 // Leone
+	SOS Currency = 129 // Somali Shilling
+	SRD Currency = 130 // Surinam Dollar
+	SSP Currency = 131 // South Sudanese Pound
+	STN Currency = 132 // Dobra
+	SVC Currency = 133 // El Salvador Colon
+	SYP Currency = 134 // Syrian Pound
+	SZL Currency = 135 // Lilangeni
+	THB Currency = 136 // Baht
+	TJS Currency = 137 // Somoni
+	TMT Currency = 138 // Turkmenistan New Manat
+	TND Currency = 139 // Tunisian Dinar
+	TOP Currency = 140 // Pa’anga
+	TRY Currency = 141 // Turkish Lira
+	TTD Currency = 142 // Trinidad and Tobago Dollar
+	TWD Currency = 143 // New Taiwan Dollar
+	TZS Currency = 144 // Tanzanian Shilling
+	UAH Currency = 145 // Hryvnia
+	UGX Currency = 146 // Uganda Shilling
+	USD Currency = 147 // US Dollar
+	USN Currency = 148 // US Dollar (Next day)
+	UYI Currency = 149 // Uruguay Peso en Unidades Indexadas (UI)
+	UYU Currency = 150 // Peso Uruguayo
+	UYW Currency = 151 // Unidad Previsional
+	UZS Currency = 152 // Uzbekistan Sum
+	VED Currency = 153 // Bolívar Soberano
+	VES Currency = 154 // Bolívar Soberano
+	VND Currency = 155 // Dong
+	VUV Currency = 156 // Vatu
+	WST Currency = 157 // Tala
+	XAD Currency = 158 // Arab Accounting Dinar
+	XAF Currency = 159 // CFA Franc BEAC
+	XAG Currency = 160 // Silver
+	XAU Currency = 161 // Gold
+	XBA Currency = 162 // Bond Markets Unit European Composite Unit (EURCO)
+	XBB Currency = 163 // Bond Markets Unit European Monetary Unit (E.M.U.-6)
+	XBC Currency = 164 // Bond Markets Unit European Unit of Account 9 (E.U.A.-9)
+	XBD Currency = 165 // Bond Markets Unit European Unit of Account 17 (E.U.A.-17)
+	XCD Currency = 166 // East Caribbean Dollar
+	XCG Currency = 167 // Caribbean Guilder
+	XDR Currency = 168 // SDR (Special Drawing Right)
+	XOF Currency = 169 // CFA Franc BCEAO
+	XPD Currency = 170 // Palladium
+	XPF Currency = 171 // CFP Franc
+	XPT Currency = 172 // Platinum
+	XSU Currency = 173 // Sucre
+	XUA Currency = 174 // ADB Unit of Account
+	YER Currency = 175 // Yemeni Rial
+	ZAR Currency = 176 // Rand
+	ZMW Currency = 177 // Zambian Kwacha
+	ZWG Currency = 178 // Zimbabwe Gold
 )
 
 var currLookup = map[string]Currency{
-	"XXX": XXX, "xxx": XXX, "999": XXX, // No Currency
-	"XTS": XTS, "xts": XTS, "963": XTS, // Test Currency
-	"AED": AED, "aed": AED, "784": AED, // U.A.E. Dirham
+	"XXX": XXX, "xxx": XXX, "999": XXX, // The codes assigned for transactions where no currency is involved
+	"XTS": XTS, "xts": XTS, "963": XTS, // Codes specifically reserved for testing purposes
+	"AED": AED, "aed": AED, "784": AED, // UAE Dirham
 	"AFN": AFN, "afn": AFN, "971": AFN, // Afghani
 	"ALL": ALL, "all": ALL, "008": ALL, // Lek
 	"AMD": AMD, "amd": AMD, "051": AMD, // Armenian Dram
-	"ANG": ANG, "ang": ANG, "532": ANG, // Netherlands Antillian Guilder
 	"AOA": AOA, "aoa": AOA, "973": AOA, // Kwanza
 	"ARS": ARS, "ars": ARS, "032": ARS, // Argentine Peso
 	"AUD": AUD, "aud": AUD, "036": AUD, // Australian Dollar
-	"AWG": AWG, "awg": AWG, "533": AWG, // Aruban Guilder
+	"AWG": AWG, "awg": AWG, "533": AWG, // Aruban Florin
 	"AZN": AZN, "azn": AZN, "944": AZN, // Azerbaijan Manat
 	"BAM": BAM, "bam": BAM, "977": BAM, // Convertible Mark
 	"BBD": BBD, "bbd": BBD, "052": BBD, // Barbados Dollar
@@ -186,48 +206,51 @@ var currLookup = map[string]Currency{
 	"BMD": BMD, "bmd": BMD, "060": BMD, // Bermudian Dollar
 	"BND": BND, "bnd": BND, "096": BND, // Brunei Dollar
 	"BOB": BOB, "bob": BOB, "068": BOB, // Boliviano
+	"BOV": BOV, "bov": BOV, "984": BOV, // Mvdol
 	"BRL": BRL, "brl": BRL, "986": BRL, // Brazilian Real
 	"BSD": BSD, "bsd": BSD, "044": BSD, // Bahamian Dollar
-	"BTN": BTN, "btn": BTN, "064": BTN, // Bhutan Ngultrum
+	"BTN": BTN, "btn": BTN, "064": BTN, // Ngultrum
 	"BWP": BWP, "bwp": BWP, "072": BWP, // Pula
-	"BYN": BYN, "byn": BYN, "933": BYN, // Belarussian Ruble
+	"BYN": BYN, "byn": BYN, "933": BYN, // Belarusian Ruble
 	"BZD": BZD, "bzd": BZD, "084": BZD, // Belize Dollar
 	"CAD": CAD, "cad": CAD, "124": CAD, // Canadian Dollar
-	"CDF": CDF, "cdf": CDF, "976": CDF, // Franc Congolais
+	"CDF": CDF, "cdf": CDF, "976": CDF, // Congolese Franc
+	"CHE": CHE, "che": CHE, "947": CHE, // WIR Euro
 	"CHF": CHF, "chf": CHF, "756": CHF, // Swiss Franc
+	"CHW": CHW, "chw": CHW, "948": CHW, // WIR Franc
+	"CLF": CLF, "clf": CLF, "990": CLF, // Unidad de Fomento
 	"CLP": CLP, "clp": CLP, "152": CLP, // Chilean Peso
 	"CNY": CNY, "cny": CNY, "156": CNY, // Yuan Renminbi
 	"COP": COP, "cop": COP, "170": COP, // Colombian Peso
+	"COU": COU, "cou": COU, "970": COU, // Unidad de Valor Real
 	"CRC": CRC, "crc": CRC, "188": CRC, // Costa Rican Colon
 	"CUP": CUP, "cup": CUP, "192": CUP, // Cuban Peso
-	"CVE": CVE, "cve": CVE, "132": CVE, // Cape Verde Escudo
+	"CVE": CVE, "cve": CVE, "132": CVE, // Cabo Verde Escudo
 	"CZK": CZK, "czk": CZK, "203": CZK, // Czech Koruna
 	"DJF": DJF, "djf": DJF, "262": DJF, // Djibouti Franc
 	"DKK": DKK, "dkk": DKK, "208": DKK, // Danish Krone
 	"DOP": DOP, "dop": DOP, "214": DOP, // Dominican Peso
 	"DZD": DZD, "dzd": DZD, "012": DZD, // Algerian Dinar
 	"EGP": EGP, "egp": EGP, "818": EGP, // Egyptian Pound
-	"ERN": ERN, "ern": ERN, "232": ERN, // Eritean Nakfa
+	"ERN": ERN, "ern": ERN, "232": ERN, // Nakfa
 	"ETB": ETB, "etb": ETB, "230": ETB, // Ethiopian Birr
 	"EUR": EUR, "eur": EUR, "978": EUR, // Euro
 	"FJD": FJD, "fjd": FJD, "242": FJD, // Fiji Dollar
 	"FKP": FKP, "fkp": FKP, "238": FKP, // Falkland Islands Pound
 	"GBP": GBP, "gbp": GBP, "826": GBP, // Pound Sterling
 	"GEL": GEL, "gel": GEL, "981": GEL, // Lari
-	"GHS": GHS, "ghs": GHS, "936": GHS, // Cedi
+	"GHS": GHS, "ghs": GHS, "936": GHS, // Ghana Cedi
 	"GIP": GIP, "gip": GIP, "292": GIP, // Gibraltar Pound
 	"GMD": GMD, "gmd": GMD, "270": GMD, // Dalasi
-	"GNF": GNF, "gnf": GNF, "324": GNF, // Guinea Franc
+	"GNF": GNF, "gnf": GNF, "324": GNF, // Guinean Franc
 	"GTQ": GTQ, "gtq": GTQ, "320": GTQ, // Quetzal
-	"GWP": GWP, "gwp": GWP, "624": GWP, // Guinea-Bissau Peso
 	"GYD": GYD, "gyd": GYD, "328": GYD, // Guyana Dollar
 	"HKD": HKD, "hkd": HKD, "344": HKD, // Hong Kong Dollar
 	"HNL": HNL, "hnl": HNL, "340": HNL, // Lempira
-	"HRK": HRK, "hrk": HRK, "191": HRK, // Croatian Kuna
 	"HTG": HTG, "htg": HTG, "332": HTG, // Gourde
 	"HUF": HUF, "huf": HUF, "348": HUF, // Forint
 	"IDR": IDR, "idr": IDR, "360": IDR, // Rupiah
-	"ILS": ILS, "ils": ILS, "376": ILS, // Israeli Shequel
+	"ILS": ILS, "ils": ILS, "376": ILS, // New Israeli Sheqel
 	"INR": INR, "inr": INR, "356": INR, // Indian Rupee
 	"IQD": IQD, "iqd": IQD, "368": IQD, // Iraqi Dinar
 	"IRR": IRR, "irr": IRR, "364": IRR, // Iranian Rial
@@ -238,17 +261,17 @@ var currLookup = map[string]Currency{
 	"KES": KES, "kes": KES, "404": KES, // Kenyan Shilling
 	"KGS": KGS, "kgs": KGS, "417": KGS, // Som
 	"KHR": KHR, "khr": KHR, "116": KHR, // Riel
-	"KMF": KMF, "kmf": KMF, "174": KMF, // Comoro Franc
+	"KMF": KMF, "kmf": KMF, "174": KMF, // Comorian Franc
 	"KPW": KPW, "kpw": KPW, "408": KPW, // North Korean Won
 	"KRW": KRW, "krw": KRW, "410": KRW, // Won
 	"KWD": KWD, "kwd": KWD, "414": KWD, // Kuwaiti Dinar
 	"KYD": KYD, "kyd": KYD, "136": KYD, // Cayman Islands Dollar
 	"KZT": KZT, "kzt": KZT, "398": KZT, // Tenge
-	"LAK": LAK, "lak": LAK, "418": LAK, // Kip
+	"LAK": LAK, "lak": LAK, "418": LAK, // Lao Kip
 	"LBP": LBP, "lbp": LBP, "422": LBP, // Lebanese Pound
 	"LKR": LKR, "lkr": LKR, "144": LKR, // Sri Lanka Rupee
 	"LRD": LRD, "lrd": LRD, "430": LRD, // Liberian Dollar
-	"LSL": LSL, "lsl": LSL, "426": LSL, // Lesotho Loti
+	"LSL": LSL, "lsl": LSL, "426": LSL, // Loti
 	"LYD": LYD, "lyd": LYD, "434": LYD, // Libyan Dinar
 	"MAD": MAD, "mad": MAD, "504": MAD, // Moroccan Dirham
 	"MDL": MDL, "mdl": MDL, "498": MDL, // Moldovan Leu
@@ -262,6 +285,7 @@ var currLookup = map[string]Currency{
 	"MVR": MVR, "mvr": MVR, "462": MVR, // Rufiyaa
 	"MWK": MWK, "mwk": MWK, "454": MWK, // Malawi Kwacha
 	"MXN": MXN, "mxn": MXN, "484": MXN, // Mexican Peso
+	"MXV": MXV, "mxv": MXV, "979": MXV, // Mexican Unidad de Inversion (UDI)
 	"MYR": MYR, "myr": MYR, "458": MYR, // Malaysian Ringgit
 	"MZN": MZN, "mzn": MZN, "943": MZN, // Mozambique Metical
 	"NAD": NAD, "nad": NAD, "516": NAD, // Namibia Dollar
@@ -279,7 +303,7 @@ var currLookup = map[string]Currency{
 	"PLN": PLN, "pln": PLN, "985": PLN, // Zloty
 	"PYG": PYG, "pyg": PYG, "600": PYG, // Guarani
 	"QAR": QAR, "qar": QAR, "634": QAR, // Qatari Rial
-	"RON": RON, "ron": RON, "946": RON, // Leu
+	"RON": RON, "ron": RON, "946": RON, // Romanian Leu
 	"RSD": RSD, "rsd": RSD, "941": RSD, // Serbian Dinar
 	"RUB": RUB, "rub": RUB, "643": RUB, // Russian Ruble
 	"RWF": RWF, "rwf": RWF, "646": RWF, // Rwanda Franc
@@ -289,54 +313,71 @@ var currLookup = map[string]Currency{
 	"SDG": SDG, "sdg": SDG, "938": SDG, // Sudanese Pound
 	"SEK": SEK, "sek": SEK, "752": SEK, // Swedish Krona
 	"SGD": SGD, "sgd": SGD, "702": SGD, // Singapore Dollar
-	"SHP": SHP, "shp": SHP, "654": SHP, // St. Helena Pound
-	"SLL": SLL, "sll": SLL, "694": SLL, // Leone
+	"SHP": SHP, "shp": SHP, "654": SHP, // Saint Helena Pound
+	"SLE": SLE, "sle": SLE, "925": SLE, // Leone
 	"SOS": SOS, "sos": SOS, "706": SOS, // Somali Shilling
 	"SRD": SRD, "srd": SRD, "968": SRD, // Surinam Dollar
 	"SSP": SSP, "ssp": SSP, "728": SSP, // South Sudanese Pound
 	"STN": STN, "stn": STN, "930": STN, // Dobra
+	"SVC": SVC, "svc": SVC, "222": SVC, // El Salvador Colon
 	"SYP": SYP, "syp": SYP, "760": SYP, // Syrian Pound
 	"SZL": SZL, "szl": SZL, "748": SZL, // Lilangeni
 	"THB": THB, "thb": THB, "764": THB, // Baht
 	"TJS": TJS, "tjs": TJS, "972": TJS, // Somoni
-	"TMT": TMT, "tmt": TMT, "934": TMT, // Manat
+	"TMT": TMT, "tmt": TMT, "934": TMT, // Turkmenistan New Manat
 	"TND": TND, "tnd": TND, "788": TND, // Tunisian Dinar
-	"TOP": TOP, "top": TOP, "776": TOP, // Pa'anga
+	"TOP": TOP, "top": TOP, "776": TOP, // Pa’anga
 	"TRY": TRY, "try": TRY, "949": TRY, // Turkish Lira
 	"TTD": TTD, "ttd": TTD, "780": TTD, // Trinidad and Tobago Dollar
 	"TWD": TWD, "twd": TWD, "901": TWD, // New Taiwan Dollar
 	"TZS": TZS, "tzs": TZS, "834": TZS, // Tanzanian Shilling
-	"UAH": UAH, "uah": UAH, "980": UAH, // Ukrainian Hryvnia
+	"UAH": UAH, "uah": UAH, "980": UAH, // Hryvnia
 	"UGX": UGX, "ugx": UGX, "800": UGX, // Uganda Shilling
-	"USD": USD, "usd": USD, "840": USD, // U.S. Dollar
+	"USD": USD, "usd": USD, "840": USD, // US Dollar
+	"USN": USN, "usn": USN, "997": USN, // US Dollar (Next day)
+	"UYI": UYI, "uyi": UYI, "940": UYI, // Uruguay Peso en Unidades Indexadas (UI)
 	"UYU": UYU, "uyu": UYU, "858": UYU, // Peso Uruguayo
+	"UYW": UYW, "uyw": UYW, "927": UYW, // Unidad Previsional
 	"UZS": UZS, "uzs": UZS, "860": UZS, // Uzbekistan Sum
-	"VES": VES, "ves": VES, "928": VES, // Sovereign Bolivar
+	"VED": VED, "ved": VED, "926": VED, // Bolívar Soberano
+	"VES": VES, "ves": VES, "928": VES, // Bolívar Soberano
 	"VND": VND, "vnd": VND, "704": VND, // Dong
 	"VUV": VUV, "vuv": VUV, "548": VUV, // Vatu
 	"WST": WST, "wst": WST, "882": WST, // Tala
+	"XAD": XAD, "xad": XAD, "396": XAD, // Arab Accounting Dinar
 	"XAF": XAF, "xaf": XAF, "950": XAF, // CFA Franc BEAC
+	"XAG": XAG, "xag": XAG, "961": XAG, // Silver
+	"XAU": XAU, "xau": XAU, "959": XAU, // Gold
+	"XBA": XBA, "xba": XBA, "955": XBA, // Bond Markets Unit European Composite Unit (EURCO)
+	"XBB": XBB, "xbb": XBB, "956": XBB, // Bond Markets Unit European Monetary Unit (E.M.U.-6)
+	"XBC": XBC, "xbc": XBC, "957": XBC, // Bond Markets Unit European Unit of Account 9 (E.U.A.-9)
+	"XBD": XBD, "xbd": XBD, "958": XBD, // Bond Markets Unit European Unit of Account 17 (E.U.A.-17)
 	"XCD": XCD, "xcd": XCD, "951": XCD, // East Caribbean Dollar
+	"XCG": XCG, "xcg": XCG, "532": XCG, // Caribbean Guilder
+	"XDR": XDR, "xdr": XDR, "960": XDR, // SDR (Special Drawing Right)
 	"XOF": XOF, "xof": XOF, "952": XOF, // CFA Franc BCEAO
+	"XPD": XPD, "xpd": XPD, "964": XPD, // Palladium
 	"XPF": XPF, "xpf": XPF, "953": XPF, // CFP Franc
+	"XPT": XPT, "xpt": XPT, "962": XPT, // Platinum
+	"XSU": XSU, "xsu": XSU, "994": XSU, // Sucre
+	"XUA": XUA, "xua": XUA, "965": XUA, // ADB Unit of Account
 	"YER": YER, "yer": YER, "886": YER, // Yemeni Rial
 	"ZAR": ZAR, "zar": ZAR, "710": ZAR, // Rand
 	"ZMW": ZMW, "zmw": ZMW, "967": ZMW, // Zambian Kwacha
-	"ZWL": ZWL, "zwl": ZWL, "932": ZWL, // Zimbabwe Dollar
+	"ZWG": ZWG, "zwg": ZWG, "924": ZWG, // Zimbabwe Gold
 }
 
 var scaleLookup = [...]int8{
-	XXX: 0, // No Currency
-	XTS: 2, // Test Currency
-	AED: 2, // U.A.E. Dirham
+	XXX: 0, // The codes assigned for transactions where no currency is involved
+	XTS: 0, // Codes specifically reserved for testing purposes
+	AED: 2, // UAE Dirham
 	AFN: 2, // Afghani
 	ALL: 2, // Lek
 	AMD: 2, // Armenian Dram
-	ANG: 2, // Netherlands Antillian Guilder
 	AOA: 2, // Kwanza
 	ARS: 2, // Argentine Peso
 	AUD: 2, // Australian Dollar
-	AWG: 2, // Aruban Guilder
+	AWG: 2, // Aruban Florin
 	AZN: 2, // Azerbaijan Manat
 	BAM: 2, // Convertible Mark
 	BBD: 2, // Barbados Dollar
@@ -347,69 +388,72 @@ var scaleLookup = [...]int8{
 	BMD: 2, // Bermudian Dollar
 	BND: 2, // Brunei Dollar
 	BOB: 2, // Boliviano
+	BOV: 2, // Mvdol
 	BRL: 2, // Brazilian Real
 	BSD: 2, // Bahamian Dollar
-	BTN: 2, // Bhutan Ngultrum
+	BTN: 2, // Ngultrum
 	BWP: 2, // Pula
-	BYN: 2, // Belarussian Ruble
+	BYN: 2, // Belarusian Ruble
 	BZD: 2, // Belize Dollar
 	CAD: 2, // Canadian Dollar
-	CDF: 2, // Franc Congolais
+	CDF: 2, // Congolese Franc
+	CHE: 2, // WIR Euro
 	CHF: 2, // Swiss Franc
+	CHW: 2, // WIR Franc
+	CLF: 4, // Unidad de Fomento
 	CLP: 0, // Chilean Peso
 	CNY: 2, // Yuan Renminbi
 	COP: 2, // Colombian Peso
+	COU: 2, // Unidad de Valor Real
 	CRC: 2, // Costa Rican Colon
 	CUP: 2, // Cuban Peso
-	CVE: 2, // Cape Verde Escudo
+	CVE: 2, // Cabo Verde Escudo
 	CZK: 2, // Czech Koruna
 	DJF: 0, // Djibouti Franc
 	DKK: 2, // Danish Krone
 	DOP: 2, // Dominican Peso
 	DZD: 2, // Algerian Dinar
 	EGP: 2, // Egyptian Pound
-	ERN: 2, // Eritean Nakfa
+	ERN: 2, // Nakfa
 	ETB: 2, // Ethiopian Birr
 	EUR: 2, // Euro
 	FJD: 2, // Fiji Dollar
 	FKP: 2, // Falkland Islands Pound
 	GBP: 2, // Pound Sterling
 	GEL: 2, // Lari
-	GHS: 2, // Cedi
+	GHS: 2, // Ghana Cedi
 	GIP: 2, // Gibraltar Pound
 	GMD: 2, // Dalasi
-	GNF: 0, // Guinea Franc
+	GNF: 0, // Guinean Franc
 	GTQ: 2, // Quetzal
-	GWP: 2, // Guinea-Bissau Peso
 	GYD: 2, // Guyana Dollar
 	HKD: 2, // Hong Kong Dollar
 	HNL: 2, // Lempira
-	HRK: 2, // Croatian Kuna
 	HTG: 2, // Gourde
 	HUF: 2, // Forint
 	IDR: 2, // Rupiah
-	ILS: 2, // Israeli Shequel
+	ILS: 2, // New Israeli Sheqel
 	INR: 2, // Indian Rupee
 	IQD: 3, // Iraqi Dinar
 	IRR: 2, // Iranian Rial
-	ISK: 2, // Iceland Krona
+	ISK: 0, // Iceland Krona
 	JMD: 2, // Jamaican Dollar
 	JOD: 3, // Jordanian Dinar
 	JPY: 0, // Yen
 	KES: 2, // Kenyan Shilling
 	KGS: 2, // Som
 	KHR: 2, // Riel
-	KMF: 0, // Comoro Franc
+	KMF: 0, // Comorian Franc
 	KPW: 2, // North Korean Won
 	KRW: 0, // Won
 	KWD: 3, // Kuwaiti Dinar
 	KYD: 2, // Cayman Islands Dollar
 	KZT: 2, // Tenge
-	LAK: 2, // Kip
+	LAK: 2, // Lao Kip
 	LBP: 2, // Lebanese Pound
 	LKR: 2, // Sri Lanka Rupee
 	LRD: 2, // Liberian Dollar
-	LSL: 2, // Lesotho Loti
+	LSL: 2, // Loti
 	LYD: 3, // Libyan Dinar
 	MAD: 2, // Moroccan Dirham
 	MDL: 2, // Moldovan Leu
@@ -423,6 +467,7 @@ var scaleLookup = [...]int8{
 	MVR: 2, // Rufiyaa
 	MWK: 2, // Malawi Kwacha
 	MXN: 2, // Mexican Peso
+	MXV: 2, // Mexican Unidad de Inversion (UDI)
 	MYR: 2, // Malaysian Ringgit
 	MZN: 2, // Mozambique Metical
 	NAD: 2, // Namibia Dollar
@@ -440,7 +485,7 @@ var scaleLookup = [...]int8{
 	PLN: 2, // Zloty
 	PYG: 0, // Guarani
 	QAR: 2, // Qatari Rial
-	RON: 2, // Leu
+	RON: 2, // Romanian Leu
 	RSD: 2, // Serbian Dinar
 	RUB: 2, // Russian Ruble
 	RWF: 0, // Rwanda Franc
@@ -450,54 +495,71 @@ var scaleLookup = [...]int8{
 	SDG: 2, // Sudanese Pound
 	SEK: 2, // Swedish Krona
 	SGD: 2, // Singapore Dollar
-	SHP: 2, // St. Helena Pound
-	SLL: 2, // Leone
+	SHP: 2, // Saint Helena Pound
+	SLE: 2, // Leone
 	SOS: 2, // Somali Shilling
 	SRD: 2, // Surinam Dollar
 	SSP: 2, // South Sudanese Pound
 	STN: 2, // Dobra
+	SVC: 2, // El Salvador Colon
 	SYP: 2, // Syrian Pound
 	SZL: 2, // Lilangeni
 	THB: 2, // Baht
 	TJS: 2, // Somoni
-	TMT: 2, // Manat
+	TMT: 2, // Turkmenistan New Manat
 	TND: 3, // Tunisian Dinar
-	TOP: 2, // Pa'anga
+	TOP: 2, // Pa’anga
 	TRY: 2, // Turkish Lira
 	TTD: 2, // Trinidad and Tobago Dollar
 	TWD: 2, // New Taiwan Dollar
 	TZS: 2, // Tanzanian Shilling
-	UAH: 2, // Ukrainian Hryvnia
+	UAH: 2, // Hryvnia
 	UGX: 0, // Uganda Shilling
-	USD: 2, // U.S. Dollar
+	USD: 2, // US Dollar
+	USN: 2, // US Dollar (Next day)
+	UYI: 0, // Uruguay Peso en Unidades Indexadas (UI)
 	UYU: 2, // Peso Uruguayo
+	UYW: 4, // Unidad Previsional
 	UZS: 2, // Uzbekistan Sum
-	VES: 2, // Sovereign Bolivar
+	VED: 2, // Bolívar Soberano
+	VES: 2, // Bolívar Soberano
 	VND: 0, // Dong
 	VUV: 0, // Vatu
 	WST: 2, // Tala
+	XAD: 2, // Arab Accounting Dinar
 	XAF: 0, // CFA Franc BEAC
+	XAG: 0, // Silver
+	XAU: 0, // Gold
+	XBA: 0, // Bond Markets Unit European Composite Unit (EURCO)
+	XBB: 0, // Bond Markets Unit European Monetary Unit (E.M.U.-6)
+	XBC: 0, // Bond Markets Unit European Unit of Account 9 (E.U.A.-9)
+	XBD: 0, // Bond Markets Unit European Unit of Account 17 (E.U.A.-17)
 	XCD: 2, // East Caribbean Dollar
+	XCG: 2, // Caribbean Guilder
+	XDR: 0, // SDR (Special Drawing Right)
 	XOF: 0, // CFA Franc BCEAO
+	XPD: 0, // Palladium
 	XPF: 0, // CFP Franc
+	XPT: 0, // Platinum
+	XSU: 0, // Sucre
+	XUA: 0, // ADB Unit of Account
 	YER: 2, // Yemeni Rial
 	ZAR: 2, // Rand
 	ZMW: 2, // Zambian Kwacha
-	ZWL: 2, // Zimbabwe Dollar
+	ZWG: 2, // Zimbabwe Gold
 }
 
 var numLookup = [...]string{
-	XXX: "999", // No Currency
-	XTS: "963", // Test Currency
-	AED: "784", // U.A.E. Dirham
+	XXX: "999", // The codes assigned for transactions where no currency is involved
+	XTS: "963", // Codes specifically reserved for testing purposes
+	AED: "784", // UAE Dirham
 	AFN: "971", // Afghani
 	ALL: "008", // Lek
 	AMD: "051", // Armenian Dram
-	ANG: "532", // Netherlands Antillian Guilder
 	AOA: "973", // Kwanza
 	ARS: "032", // Argentine Peso
 	AUD: "036", // Australian Dollar
-	AWG: "533", // Aruban Guilder
+	AWG: "533", // Aruban Florin
 	AZN: "944", // Azerbaijan Manat
 	BAM: "977", // Convertible Mark
 	BBD: "052", // Barbados Dollar
@@ -508,48 +570,51 @@ var numLookup = [...]string{
 	BMD: "060", // Bermudian Dollar
 	BND: "096", // Brunei Dollar
 	BOB: "068", // Boliviano
+	BOV: "984", // Mvdol
 	BRL: "986", // Brazilian Real
 	BSD: "044", // Bahamian Dollar
-	BTN: "064", // Bhutan Ngultrum
+	BTN: "064", // Ngultrum
 	BWP: "072", // Pula
-	BYN: "933", // Belarussian Ruble
+	BYN: "933", // Belarusian Ruble
 	BZD: "084", // Belize Dollar
 	CAD: "124", // Canadian Dollar
-	CDF: "976", // Franc Congolais
+	CDF: "976", // Congolese Franc
+	CHE: "947", // WIR Euro
 	CHF: "756", // Swiss Franc
+	CHW: "948", // WIR Franc
+	CLF: "990", // Unidad de Fomento
 	CLP: "152", // Chilean Peso
 	CNY: "156", // Yuan Renminbi
 	COP: "170", // Colombian Peso
+	COU: "970", // Unidad de Valor Real
 	CRC: "188", // Costa Rican Colon
 	CUP: "192", // Cuban Peso
-	CVE: "132", // Cape Verde Escudo
+	CVE: "132", // Cabo Verde Escudo
 	CZK: "203", // Czech Koruna
 	DJF: "262", // Djibouti Franc
 	DKK: "208", // Danish Krone
 	DOP: "214", // Dominican Peso
 	DZD: "012", // Algerian Dinar
 	EGP: "818", // Egyptian Pound
-	ERN: "232", // Eritean Nakfa
+	ERN: "232", // Nakfa
 	ETB: "230", // Ethiopian Birr
 	EUR: "978", // Euro
 	FJD: "242", // Fiji Dollar
 	FKP: "238", // Falkland Islands Pound
 	GBP: "826", // Pound Sterling
 	GEL: "981", // Lari
-	GHS: "936", // Cedi
+	GHS: "936", // Ghana Cedi
 	GIP: "292", // Gibraltar Pound
 	GMD: "270", // Dalasi
-	GNF: "324", // Guinea Franc
+	GNF: "324", // Guinean Franc
 	GTQ: "320", // Quetzal
-	GWP: "624", // Guinea-Bissau Peso
 	GYD: "328", // Guyana Dollar
 	HKD: "344", // Hong Kong Dollar
 	HNL: "340", // Lempira
-	HRK: "191", // Croatian Kuna
 	HTG: "332", // Gourde
 	HUF: "348", // Forint
 	IDR: "360", // Rupiah
-	ILS: "376", // Israeli Shequel
+	ILS: "376", // New Israeli Sheqel
 	INR: "356", // Indian Rupee
 	IQD: "368", // Iraqi Dinar
 	IRR: "364", // Iranian Rial
@@ -560,17 +625,17 @@ var numLookup = [...]string{
 	KES: "404", // Kenyan Shilling
 	KGS: "417", // Som
 	KHR: "116", // Riel
-	KMF: "174", // Comoro Franc
+	KMF: "174", // Comorian Franc
 	KPW: "408", // North Korean Won
 	KRW: "410", // Won
 	KWD: "414", // Kuwaiti Dinar
 	KYD: "136", // Cayman Islands Dollar
 	KZT: "398", // Tenge
-	LAK: "418", // Kip
+	LAK: "418", // Lao Kip
 	LBP: "422", // Lebanese Pound
 	LKR: "144", // Sri Lanka Rupee
 	LRD: "430", // Liberian Dollar
-	LSL: "426", // Lesotho Loti
+	LSL: "426", // Loti
 	LYD: "434", // Libyan Dinar
 	MAD: "504", // Moroccan Dirham
 	MDL: "498", // Moldovan Leu
@@ -584,6 +649,7 @@ var numLookup = [...]string{
 	MVR: "462", // Rufiyaa
 	MWK: "454", // Malawi Kwacha
 	MXN: "484", // Mexican Peso
+	MXV: "979", // Mexican Unidad de Inversion (UDI)
 	MYR: "458", // Malaysian Ringgit
 	MZN: "943", // Mozambique Metical
 	NAD: "516", // Namibia Dollar
@@ -601,7 +667,7 @@ var numLookup = [...]string{
 	PLN: "985", // Zloty
 	PYG: "600", // Guarani
 	QAR: "634", // Qatari Rial
-	RON: "946", // Leu
+	RON: "946", // Romanian Leu
 	RSD: "941", // Serbian Dinar
 	RUB: "643", // Russian Ruble
 	RWF: "646", // Rwanda Franc
@@ -611,54 +677,71 @@ var numLookup = [...]string{
 	SDG: "938", // Sudanese Pound
 	SEK: "752", // Swedish Krona
 	SGD: "702", // Singapore Dollar
-	SHP: "654", // St. Helena Pound
-	SLL: "694", // Leone
+	SHP: "654", // Saint Helena Pound
+	SLE: "925", // Leone
 	SOS: "706", // Somali Shilling
 	SRD: "968", // Surinam Dollar
 	SSP: "728", // South Sudanese Pound
 	STN: "930", // Dobra
+	SVC: "222", // El Salvador Colon
 	SYP: "760", // Syrian Pound
 	SZL: "748", // Lilangeni
 	THB: "764", // Baht
 	TJS: "972", // Somoni
-	TMT: "934", // Manat
+	TMT: "934", // Turkmenistan New Manat
 	TND: "788", // Tunisian Dinar
-	TOP: "776", // Pa'anga
+	TOP: "776", // Pa’anga
 	TRY: "949", // Turkish Lira
 	TTD: "780", // Trinidad and Tobago Dollar
 	TWD: "901", // New Taiwan Dollar
 	TZS: "834", // Tanzanian Shilling
-	UAH: "980", // Ukrainian Hryvnia
+	UAH: "980", // Hryvnia
 	UGX: "800", // Uganda Shilling
-	USD: "840", // U.S. Dollar
+	USD: "840", // US Dollar
+	USN: "997", // US Dollar (Next day)
+	UYI: "940", // Uruguay Peso en Unidades Indexadas (UI)
 	UYU: "858", // Peso Uruguayo
+	UYW: "927", // Unidad Previsional
 	UZS: "860", // Uzbekistan Sum
-	VES: "928", // Sovereign Bolivar
+	VED: "926", // Bolívar Soberano
+	VES: "928", // Bolívar Soberano
 	VND: "704", // Dong
 	VUV: "548", // Vatu
 	WST: "882", // Tala
+	XAD: "396", // Arab Accounting Dinar
 	XAF: "950", // CFA Franc BEAC
+	XAG: "961", // Silver
+	XAU: "959", // Gold
+	XBA: "955", // Bond Markets Unit European Composite Unit (EURCO)
+	XBB: "956", // Bond Markets Unit European Monetary Unit (E.M.U.-6)
+	XBC: "957", // Bond Markets Unit European Unit of Account 9 (E.U.A.-9)
+	XBD: "958", // Bond Markets Unit European Unit of Account 17 (E.U.A.-17)
 	XCD: "951", // East Caribbean Dollar
+	XCG: "532", // Caribbean Guilder
+	XDR: "960", // SDR (Special Drawing Right)
 	XOF: "952", // CFA Franc BCEAO
+	XPD: "964", // Palladium
 	XPF: "953", // CFP Franc
+	XPT: "962", // Platinum
+	XSU: "994", // Sucre
+	XUA: "965", // ADB Unit of Account
 	YER: "886", // Yemeni Rial
 	ZAR: "710", // Rand
 	ZMW: "967", // Zambian Kwacha
-	ZWL: "932", // Zimbabwe Dollar
+	ZWG: "924", // Zimbabwe Gold
 }
 
 var codeLookup = [...]string{
-	XXX: "XXX", // No Currency
-	XTS: "XTS", // Test Currency
-	AED: "AED", // U.A.E. Dirham
+	XXX: "XXX", // The codes assigned for transactions where no currency is involved
+	XTS: "XTS", // Codes specifically reserved for testing purposes
+	AED: "AED", // UAE Dirham
 	AFN: "AFN", // Afghani
 	ALL: "ALL", // Lek
 	AMD: "AMD", // Armenian Dram
-	ANG: "ANG", // Netherlands Antillian Guilder
 	AOA: "AOA", // Kwanza
 	ARS: "ARS", // Argentine Peso
 	AUD: "AUD", // Australian Dollar
-	AWG: "AWG", // Aruban Guilder
+	AWG: "AWG", // Aruban Florin
 	AZN: "AZN", // Azerbaijan Manat
 	BAM: "BAM", // Convertible Mark
 	BBD: "BBD", // Barbados Dollar
@@ -669,48 +752,51 @@ var codeLookup = [...]string{
 	BMD: "BMD", // Bermudian Dollar
 	BND: "BND", // Brunei Dollar
 	BOB: "BOB", // Boliviano
+	BOV: "BOV", // Mvdol
 	BRL: "BRL", // Brazilian Real
 	BSD: "BSD", // Bahamian Dollar
-	BTN: "BTN", // Bhutan Ngultrum
+	BTN: "BTN", // Ngultrum
 	BWP: "BWP", // Pula
-	BYN: "BYN", // Belarussian Ruble
+	BYN: "BYN", // Belarusian Ruble
 	BZD: "BZD", // Belize Dollar
 	CAD: "CAD", // Canadian Dollar
-	CDF: "CDF", // Franc Congolais
+	CDF: "CDF", // Congolese Franc
+	CHE: "CHE", // WIR Euro
 	CHF: "CHF", // Swiss Franc
+	CHW: "CHW", // WIR Franc
+	CLF: "CLF", // Unidad de Fomento
 	CLP: "CLP", // Chilean Peso
 	CNY: "CNY", // Yuan Renminbi
 	COP: "COP", // Colombian Peso
+	COU: "COU", // Unidad de Valor Real
 	CRC: "CRC", // Costa Rican Colon
 	CUP: "CUP", // Cuban Peso
-	CVE: "CVE", // Cape Verde Escudo
+	CVE: "CVE", // Cabo Verde Escudo
 	CZK: "CZK", // Czech Koruna
 	DJF: "DJF", // Djibouti Franc
 	DKK: "DKK", // Danish Krone
 	DOP: "DOP", // Dominican Peso
 	DZD: "DZD", // Algerian Dinar
 	EGP: "EGP", // Egyptian Pound
-	ERN: "ERN", // Eritean Nakfa
+	ERN: "ERN", // Nakfa
 	ETB: "ETB", // Ethiopian Birr
 	EUR: "EUR", // Euro
 	FJD: "FJD", // Fiji Dollar
 	FKP: "FKP", // Falkland Islands Pound
 	GBP: "GBP", // Pound Sterling
 	GEL: "GEL", // Lari
-	GHS: "GHS", // Cedi
+	GHS: "GHS", // Ghana Cedi
 	GIP: "GIP", // Gibraltar Pound
 	GMD: "GMD", // Dalasi
-	GNF: "GNF", // Guinea Franc
+	GNF: "GNF", // Guinean Franc
 	GTQ: "GTQ", // Quetzal
-	GWP: "GWP", // Guinea-Bissau Peso
 	GYD: "GYD", // Guyana Dollar
 	HKD: "HKD", // Hong Kong Dollar
 	HNL: "HNL", // Lempira
-	HRK: "HRK", // Croatian Kuna
 	HTG: "HTG", // Gourde
 	HUF: "HUF", // Forint
 	IDR: "IDR", // Rupiah
-	ILS: "ILS", // Israeli Shequel
+	ILS: "ILS", // New Israeli Sheqel
 	INR: "INR", // Indian Rupee
 	IQD: "IQD", // Iraqi Dinar
 	IRR: "IRR", // Iranian Rial
@@ -721,17 +807,17 @@ var codeLookup = [...]string{
 	KES: "KES", // Kenyan Shilling
 	KGS: "KGS", // Som
 	KHR: "KHR", // Riel
-	KMF: "KMF", // Comoro Franc
+	KMF: "KMF", // Comorian Franc
 	KPW: "KPW", // North Korean Won
 	KRW: "KRW", // Won
 	KWD: "KWD", // Kuwaiti Dinar
 	KYD: "KYD", // Cayman Islands Dollar
 	KZT: "KZT", // Tenge
-	LAK: "LAK", // Kip
+	LAK: "LAK", // Lao Kip
 	LBP: "LBP", // Lebanese Pound
 	LKR: "LKR", // Sri Lanka Rupee
 	LRD: "LRD", // Liberian Dollar
-	LSL: "LSL", // Lesotho Loti
+	LSL: "LSL", // Loti
 	LYD: "LYD", // Libyan Dinar
 	MAD: "MAD", // Moroccan Dirham
 	MDL: "MDL", // Moldovan Leu
@@ -745,6 +831,7 @@ var codeLookup = [...]string{
 	MVR: "MVR", // Rufiyaa
 	MWK: "MWK", // Malawi Kwacha
 	MXN: "MXN", // Mexican Peso
+	MXV: "MXV", // Mexican Unidad de Inversion (UDI)
 	MYR: "MYR", // Malaysian Ringgit
 	MZN: "MZN", // Mozambique Metical
 	NAD: "NAD", // Namibia Dollar
@@ -762,7 +849,7 @@ var codeLookup = [...]string{
 	PLN: "PLN", // Zloty
 	PYG: "PYG", // Guarani
 	QAR: "QAR", // Qatari Rial
-	RON: "RON", // Leu
+	RON: "RON", // Romanian Leu
 	RSD: "RSD", // Serbian Dinar
 	RUB: "RUB", // Russian Ruble
 	RWF: "RWF", // Rwanda Franc
@@ -772,38 +859,56 @@ var codeLookup = [...]string{
 	SDG: "SDG", // Sudanese Pound
 	SEK: "SEK", // Swedish Krona
 	SGD: "SGD", // Singapore Dollar
-	SHP: "SHP", // St. Helena Pound
-	SLL: "SLL", // Leone
+	SHP: "SHP", // Saint Helena Pound
+	SLE: "SLE", // Leone
 	SOS: "SOS", // Somali Shilling
 	SRD: "SRD", // Surinam Dollar
 	SSP: "SSP", // South Sudanese Pound
 	STN: "STN", // Dobra
+	SVC: "SVC", // El Salvador Colon
 	SYP: "SYP", // Syrian Pound
 	SZL: "SZL", // Lilangeni
 	THB: "THB", // Baht
 	TJS: "TJS", // Somoni
-	TMT: "TMT", // Manat
+	TMT: "TMT", // Turkmenistan New Manat
 	TND: "TND", // Tunisian Dinar
-	TOP: "TOP", // Pa'anga
+	TOP: "TOP", // Pa’anga
 	TRY: "TRY", // Turkish Lira
 	TTD: "TTD", // Trinidad and Tobago Dollar
 	TWD: "TWD", // New Taiwan Dollar
 	TZS: "TZS", // Tanzanian Shilling
-	UAH: "UAH", // Ukrainian Hryvnia
+	UAH: "UAH", // Hryvnia
 	UGX: "UGX", // Uganda Shilling
-	USD: "USD", // U.S. Dollar
+	USD: "USD", // US Dollar
+	USN: "USN", // US Dollar (Next day)
+	UYI: "UYI", // Uruguay Peso en Unidades Indexadas (UI)
 	UYU: "UYU", // Peso Uruguayo
+	UYW: "UYW", // Unidad Previsional
 	UZS: "UZS", // Uzbekistan Sum
-	VES: "VES", // Sovereign Bolivar
+	VED: "VED", // Bolívar Soberano
+	VES: "VES", // Bolívar Soberano
 	VND: "VND", // Dong
 	VUV: "VUV", // Vatu
 	WST: "WST", // Tala
+	XAD: "XAD", // Arab Accounting Dinar
 	XAF: "XAF", // CFA Franc BEAC
+	XAG: "XAG", // Silver
+	XAU: "XAU", // Gold
+	XBA: "XBA", // Bond Markets Unit European Composite Unit (EURCO)
+	XBB: "XBB", // Bond Markets Unit European Monetary Unit (E.M.U.-6)
+	XBC: "XBC", // Bond Markets Unit European Unit of Account 9 (E.U.A.-9)
+	XBD: "XBD", // Bond Markets Unit European Unit of Account 17 (E.U.A.-17)
 	XCD: "XCD", // East Caribbean Dollar
+	XCG: "XCG", // Caribbean Guilder
+	XDR: "XDR", // SDR (Special Drawing Right)
 	XOF: "XOF", // CFA Franc BCEAO
+	XPD: "XPD", // Palladium
 	XPF: "XPF", // CFP Franc
+	XPT: "XPT", // Platinum
+	XSU: "XSU", // Sucre
+	XUA: "XUA", // ADB Unit of Account
 	YER: "YER", // Yemeni Rial
 	ZAR: "ZAR", // Rand
 	ZMW: "ZMW", // Zambian Kwacha
-	ZWL: "ZWL", // Zimbabwe Dollar
+	ZWG: "ZWG", // Zimbabwe Gold
 }

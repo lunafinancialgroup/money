@@ -119,12 +119,11 @@ func TestCurrency_Scale(t *testing.T) {
 		want int
 	}{
 		{XXX, 0},
-		{XTS, 2},
+		{XTS, 0},
 		{AED, 2},
 		{AFN, 2},
 		{ALL, 2},
 		{AMD, 2},
-		{ANG, 2},
 		{AOA, 2},
 		{ARS, 2},
 		{AUD, 2},
@@ -172,11 +171,9 @@ func TestCurrency_Scale(t *testing.T) {
 		{GMD, 2},
 		{GNF, 0},
 		{GTQ, 2},
-		{GWP, 2},
 		{GYD, 2},
 		{HKD, 2},
 		{HNL, 2},
-		{HRK, 2},
 		{HTG, 2},
 		{HUF, 2},
 		{IDR, 2},
@@ -184,7 +181,7 @@ func TestCurrency_Scale(t *testing.T) {
 		{INR, 2},
 		{IQD, 3},
 		{IRR, 2},
-		{ISK, 2},
+		{ISK, 0},
 		{JMD, 2},
 		{JOD, 3},
 		{JPY, 0},
@@ -243,7 +240,6 @@ func TestCurrency_Scale(t *testing.T) {
 		{SEK, 2},
 		{SGD, 2},
 		{SHP, 2},
-		{SLL, 2},
 		{SOS, 2},
 		{SRD, 2},
 		{SSP, 2},
@@ -275,7 +271,6 @@ func TestCurrency_Scale(t *testing.T) {
 		{YER, 2},
 		{ZAR, 2},
 		{ZMW, 2},
-		{ZWL, 2},
 	}
 	for _, tt := range tests {
 		got := tt.curr.Scale()
@@ -296,7 +291,6 @@ func TestCurrency_Num(t *testing.T) {
 		{AFN, "971"},
 		{ALL, "008"},
 		{AMD, "051"},
-		{ANG, "532"},
 		{AOA, "973"},
 		{ARS, "032"},
 		{AUD, "036"},
@@ -344,11 +338,9 @@ func TestCurrency_Num(t *testing.T) {
 		{GMD, "270"},
 		{GNF, "324"},
 		{GTQ, "320"},
-		{GWP, "624"},
 		{GYD, "328"},
 		{HKD, "344"},
 		{HNL, "340"},
-		{HRK, "191"},
 		{HTG, "332"},
 		{HUF, "348"},
 		{IDR, "360"},
@@ -415,7 +407,6 @@ func TestCurrency_Num(t *testing.T) {
 		{SEK, "752"},
 		{SGD, "702"},
 		{SHP, "654"},
-		{SLL, "694"},
 		{SOS, "706"},
 		{SRD, "968"},
 		{SSP, "728"},
@@ -447,7 +438,6 @@ func TestCurrency_Num(t *testing.T) {
 		{YER, "886"},
 		{ZAR, "710"},
 		{ZMW, "967"},
-		{ZWL, "932"},
 	}
 	for _, tt := range tests {
 		got := tt.curr.Num()
@@ -468,7 +458,6 @@ func TestCurrency_Code(t *testing.T) {
 		{AFN, "AFN"},
 		{ALL, "ALL"},
 		{AMD, "AMD"},
-		{ANG, "ANG"},
 		{AOA, "AOA"},
 		{ARS, "ARS"},
 		{AUD, "AUD"},
@@ -516,11 +505,9 @@ func TestCurrency_Code(t *testing.T) {
 		{GMD, "GMD"},
 		{GNF, "GNF"},
 		{GTQ, "GTQ"},
-		{GWP, "GWP"},
 		{GYD, "GYD"},
 		{HKD, "HKD"},
 		{HNL, "HNL"},
-		{HRK, "HRK"},
 		{HTG, "HTG"},
 		{HUF, "HUF"},
 		{IDR, "IDR"},
@@ -587,7 +574,6 @@ func TestCurrency_Code(t *testing.T) {
 		{SEK, "SEK"},
 		{SGD, "SGD"},
 		{SHP, "SHP"},
-		{SLL, "SLL"},
 		{SOS, "SOS"},
 		{SRD, "SRD"},
 		{SSP, "SSP"},
@@ -619,7 +605,6 @@ func TestCurrency_Code(t *testing.T) {
 		{YER, "YER"},
 		{ZAR, "ZAR"},
 		{ZMW, "ZMW"},
-		{ZWL, "ZWL"},
 	}
 	for _, tt := range tests {
 		got := tt.curr.Code()

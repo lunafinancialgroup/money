@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/govalues/decimal"
-	"github.com/govalues/money"
+	"github.com/lunafinancialgroup/money"
 )
 
 func TaxAmount(price money.Amount, taxRate decimal.Decimal) (money.Amount, money.Amount, error) {
